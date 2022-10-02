@@ -6,7 +6,7 @@ const requestListener = function(req,res)
 {
 
     res.setHeader('Content-type','text/html');
-    let path = "";
+    let path = ".";
     switch(req.url)
     {
         case "/":
